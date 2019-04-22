@@ -233,7 +233,8 @@ _________________________________________________ */
         color: var(--darkblue);
     }
 
-    .hero {
-        max-height: 100%;
+    .hero::before {
+        max-width: 100%;
+        max-height: auto;
     }
 }
