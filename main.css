@@ -67,7 +67,12 @@ a:hover {
 }
 
 h3 {
-    padding-bottom: 15px;
+    padding: 0 0 1rem;
+
+}
+
+p {
+    font-size: 18px;
 }
 
 /* SCROLLING & ANIMATIONS
@@ -105,6 +110,15 @@ _________________________________________________ */
 
 .page-header .navbar-toggler {
     border-color: var(--white);
+}
+
+.brand-font {
+    font-family: 'Mitr', sans-serif;
+}
+
+.logo-image {
+    width: 30px;
+    height: 30px;
 }
 
 /* HERO
@@ -163,6 +177,17 @@ _________________________________________________ */
     filter: none;
 }
 
+hr {
+    padding: 0 0 1rem;
+}
+
+/* SERVICES
+_________________________________________________ */
+
+.h4 {
+    padding-top: 1rem;
+}
+
 /* FOOTER
 _________________________________________________ */
 
@@ -196,7 +221,7 @@ _________________________________________________ */
     .page-footer .footer-child {
         text-align: center;
     }
-    
+
     .btn-outline-primary {
         border-color: white;
         color: white;

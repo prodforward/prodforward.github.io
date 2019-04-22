@@ -21,7 +21,7 @@ $(".page-header .nav-link .navbar-brand").on("click", function(e) {
     }, 600);
 });
 
-var titles = ['ux/ui designer', 'front end web developer', 'product manager'];
+var titles = ['ux/ui design', 'front end web development', 'product management'];
 
 var t = setInterval(function() {
     var randomNumber = Math.round(Math.random() * (titles.length-1));
