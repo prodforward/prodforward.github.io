@@ -32,6 +32,10 @@ a:hover {
     background: var(--white);
 }
 
+.bg-lightgreen {
+    background: lightgreen;
+}
+
 .text-red {
     color: var(--red);
 }
@@ -149,7 +153,7 @@ _________________________________________________ */
 
 .highlight {
     text-decoration: underline;
-    color: lightgreen;
+    color: orange;
 }
 
 /* ABOUT & METHODOLOGY
