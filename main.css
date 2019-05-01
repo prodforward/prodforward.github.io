@@ -5,6 +5,7 @@ _________________________________________________ */
     --lightblue: #F6F9fC;
     --darkblue: #1e2958;
     --red: #d64041;
+    --lightgreen: #6fc367;
 }
 
 a,
@@ -32,8 +33,15 @@ a:hover {
     background: var(--white);
 }
 
-.bg-lightgreen {
-    background: #6fc367;
+.btn-lightgreen {
+    background: var(--lightgreen);
+    color: white;
+}
+
+.btn-lightgreen:hover {
+    background: white;
+    color: var(--lightgreen);
+    border-color: var(--lightgreen);
 }
 
 .text-red {
