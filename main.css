@@ -33,7 +33,7 @@ a:hover {
 }
 
 .bg-lightgreen {
-    background: lightgreen;
+    background: #6fc367;
 }
 
 .text-red {
@@ -153,7 +153,7 @@ _________________________________________________ */
 
 .highlight {
     text-decoration: underline;
-    color: orange;
+    color: #d8bd3f;
 }
 
 /* ABOUT & METHODOLOGY
