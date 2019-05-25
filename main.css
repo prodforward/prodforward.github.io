@@ -98,10 +98,6 @@ _________________________________________________ */
     background: var(--darkblue);
 }
 
-.scroll .hero {
-    transform: scale(0.98);
-}
-
 .scroll .btn-outline-primary {
     border-color: white;
     color: white;
