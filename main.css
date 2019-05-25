@@ -91,29 +91,22 @@ p {
     font-size: 18px;
 }
 
-/* SCROLLING & ANIMATIONS
-_________________________________________________ */
-
-.scroll .page-header {
-    background: var(--darkblue);
-}
-
-.scroll .btn-outline-primary {
-    border-color: white;
-    color: white;
-}
-
-.scroll .btn-outline-primary:hover {
-    border: none;
-    background: white;
-    color: var(--darkblue);
-}
-
 /* HEADER
 _________________________________________________ */
 
 .page-header {
-    transition: background 0.5s ease-in-out;
+    background: var(--darkblue);
+}
+
+.btn-outline-primary {
+    border-color: white;
+    color: white;
+}
+
+.btn-outline-primary:hover {
+    border: none;
+    background: white;
+    color: var(--darkblue);
 }
 
 .page-header .navbar {
@@ -139,6 +132,8 @@ _________________________________________________ */
 .hero {
     background-attachment: fixed;
     transition: transform 0.5s ease-in-out;
+    height: 400px;
+    background-color: darkgray;
 }
 
 .hero::after {
@@ -161,7 +156,7 @@ _________________________________________________ */
 
 .highlight {
     text-decoration: underline;
-    color: #d8bd3f;
+    color: var(--darkblue);
 }
 
 /* ABOUT & METHODOLOGY
