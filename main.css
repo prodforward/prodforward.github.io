@@ -72,6 +72,11 @@ a:hover {
     padding: 72px;
 }
 
+.header-text {
+    font-family: 'Courgette', cursive;
+    font-size: 40px;
+}
+
 h3 {
     padding: 0 0 1rem;
 
@@ -79,6 +84,7 @@ h3 {
 
 p, i {
     font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /* HEADER
@@ -193,6 +199,12 @@ _________________________________________________ */
     color: #8fcc9f;
 }
 
+.services li {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
 /* FOOTER
 _________________________________________________ */
 
@@ -213,7 +225,7 @@ _________________________________________________ */
         float: right;
     }
 
-    .about-methodology h3 {
+    .about-methodology h2 {
         padding-top: 1em;
     }
 
