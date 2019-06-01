@@ -33,15 +33,15 @@ a:hover {
     background: var(--white);
 }
 
-.btn-lightgreen {
-    background: var(--lightgreen);
+.btn-darkblue {
+    background: var(--darkblue);
     color: white;
 }
 
-.btn-lightgreen:hover {
+.btn-darkblue:hover {
     background: white;
-    color: var(--lightgreen);
-    border-color: var(--lightgreen);
+    color: var(--darkblue);
+    border-color: var(--darkblue);
 }
 
 .text-red {
@@ -50,16 +50,6 @@ a:hover {
 
 .text-darkblue {
     color: var(--darkblue);
-}
-
-.btn-outline-primary {
-    border-color: var(--darkblue);
-    color: var(--darkblue);
-}
-
-.btn-outline-primary:hover {
-    border-color: white;
-    background: var(--darkblue);
 }
 
 .container-fluid-max {
@@ -87,8 +77,8 @@ h3 {
 
 }
 
-p {
-    font-size: 18px;
+p, i {
+    font-size: 20px;
 }
 
 /* HEADER
@@ -133,7 +123,8 @@ _________________________________________________ */
     background-attachment: fixed;
     transition: transform 0.5s ease-in-out;
     height: 400px;
-    background-color: darkgray;
+    background-color: #8fcc9f;
+    padding-top: 72px;
 }
 
 .hero::after {
@@ -162,31 +153,34 @@ _________________________________________________ */
 /* ABOUT & METHODOLOGY
 _________________________________________________ */
 
-.about-methodology figure {
-    margin-bottom: 30px;
+.section-pic {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 100%;
 }
 
-.about-methodology figcaption {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.3);
+.section-pic img {
+    position: absolute;
+    max-height: 100%;
+    height: 100%;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
 }
 
-.about-methodology img {
-    filter: grayscale(100%) blur (3px);
-    transition: transform 0.5s, filter 0.75s;
+.section-p {
+    padding: 3em 0;
 }
 
-.about-methodology a:hover img {
-    transform: scale(1.25);
-    filter: none;
+.section-m {
+    margin: 0 1.5em;
 }
 
 hr {
     padding: 0 0 1rem;
 }
+
 
 /* SERVICES
 _________________________________________________ */
@@ -195,15 +189,15 @@ _________________________________________________ */
     padding-top: 1rem;
 }
 
-/* .what-get-header {
-    text-decoration: underline;
-} */
+.icon-green {
+    color: #8fcc9f;
+}
 
 /* FOOTER
 _________________________________________________ */
 
-.page-footer .footer-links {
-    text-align: right;
+.page-footer .footer-child {
+    text-align: center;
 }
 
 /* MEDIA QUERIES 
@@ -216,33 +210,21 @@ _________________________________________________ */
         background: var(--darkblue);
     }
     .btn-outline-primary {
-        border-color: white;
-        color: white;
+        float: right;
     }
-    
-    .btn-outline-primary:hover {
-        border: none;
-        background: white;
-        color: var(--darkblue);
+
+    .about-methodology h3 {
+        padding-top: 1em;
     }
+
+    .s-m-p {
+        padding-top: 2em;
+    }
+
 }
 
 /* SMALL SCREENS */
 @media screen and (max-width: 767px) {
-    .page-footer .footer-child {
-        text-align: center;
-    }
-
-    .btn-outline-primary {
-        border-color: white;
-        color: white;
-    }
-    
-    .btn-outline-primary:hover {
-        border: none;
-        background: white;
-        color: var(--darkblue);
-    }
 
     .hero {
         background-size: cover;
