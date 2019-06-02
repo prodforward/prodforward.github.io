@@ -122,6 +122,46 @@ _________________________________________________ */
     height: 30px;
 }
 
+.icon-bar {
+    width: 22px;
+    height: 2px;
+    background-color: var(--white);
+    display: block;
+    transition: all 0.2s;
+    margin-top: 4px;
+}
+
+.navbar-toggler {
+    border: none;
+    background: transparent !important;
+}
+
+.navbar-toggler .top-bar {
+    transform: translateX(3px) rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+    width: 0;
+}
+
+.navbar-toggler .bottom-bar {
+    transform: translateX(3px) rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    width: 22px;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+}
+
 /* HERO
 _________________________________________________ */
 
