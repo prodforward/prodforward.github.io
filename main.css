@@ -235,6 +235,17 @@ _________________________________________________ */
     text-align: center;
 }
 
+.social-icons {
+    font-size: 26px;
+    margin: 5px 10px 5px 0;
+    color: black;
+    text-decoration: none;
+}
+
+.social-icons a.fa-twitter:hover { 
+    color: #00aced;
+}
+
 /* MEDIA QUERIES 
 _________________________________________________ */
 
