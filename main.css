@@ -5,7 +5,7 @@ _________________________________________________ */
     --lightblue: #F6F9fC;
     --darkblue: #1e2958;
     --red: #d64041;
-    --lightgreen: #6fc367;
+    --lightgreen: #8fcc9f;
 }
 
 a,
@@ -165,7 +165,7 @@ _________________________________________________ */
     background-attachment: fixed;
     transition: transform 0.5s ease-in-out;
     height: 400px;
-    background-color: #8fcc9f;
+    background-color: var(--lightgreen);
     padding-top: 75px;
 }
 
@@ -211,7 +211,7 @@ hr {
 }
 
 
-/* SERVICES
+/* WHAT
 _________________________________________________ */
 
 .h4 {
@@ -219,13 +219,45 @@ _________________________________________________ */
 }
 
 .icon-green {
-    color: #8fcc9f;
+    color: var(--lightgreen);
 }
 
 .services li {
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 500;
+}
+
+/* DONE 
+_________________________________________________ */
+
+/* .portfolio-pic {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 100%;
+    max-height: 200px;
+}
+
+.portfolio-pic img {
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+} */
+
+.card {
+    margin-top: 2em;
+
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-body {
+    background: var(--lightgreen);
 }
 
 /* FOOTER
