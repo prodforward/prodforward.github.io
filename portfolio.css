@@ -1,0 +1,93 @@
+/* HIGH LEVEL 
+_________________________________________________ */
+
+.portfolio-p {
+    padding: 3em 0;
+}
+
+.portfolio-m {
+    margin: 0 1.5em;
+}
+
+
+/* HEADER
+_________________________________________________ */
+
+.portfolio-header {
+    margin-top: 75px;
+    
+}
+
+.portfolio-pic {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 100%;
+}
+
+.portfolio-pic img {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+}
+
+/* BRIEF & FINDINGS
+_________________________________________________ */
+
+.brief-findings li {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
+.brief-findings h4 {
+    padding: 1em 0 .5em 0;
+}
+
+/* RESULTS
+_________________________________________________ */
+
+.results p {
+    padding: 1em 0;
+}
+
+.results i {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.results-pic {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 30rem;
+}
+
+.results-pic img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    object-fit: contain;
+}
+
+
+/* MEDIA QUERIES 
+_________________________________________________ */
+
+@media screen and (max-width: 991px) {
+    .portfolio-header {
+        padding-bottom: 4.5em;
+    }
+
+    .brief-findings h2 {
+        padding-top: 1em;
+    }
+
+    .results-pic {
+        padding-bottom: 18rem;
+    }
+}

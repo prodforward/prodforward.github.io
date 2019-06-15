@@ -231,22 +231,6 @@ _________________________________________________ */
 /* DONE 
 _________________________________________________ */
 
-/* .portfolio-pic {
-    position: relative;
-    overflow: hidden;
-    padding-bottom: 100%;
-    max-height: 200px;
-}
-
-.portfolio-pic img {
-    position: absolute;
-    height: auto;
-    width: auto;
-    top: 50%;
-    left: 50%;
-    transform: translate( -50%, -50%);
-} */
-
 .card {
     margin-top: 2em;
 
@@ -280,7 +264,6 @@ _________________________________________________ */
 
 /* MEDIA QUERIES 
 _________________________________________________ */
-
 
 /* MEDIUM SCREENS */
 @media screen and (max-width: 991px) {
