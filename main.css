@@ -233,7 +233,6 @@ _________________________________________________ */
 
 .card {
     margin-top: 2em;
-
 }
 
 .card:hover {
@@ -241,7 +240,7 @@ _________________________________________________ */
 }
 
 .card-body {
-    background: var(--lightgreen);
+    background-color: var(--lightgreen);
 }
 
 /* FOOTER
