@@ -29,6 +29,10 @@ a:hover {
     background: var(--white);
 }
 
+.bg-lightgreen {
+    background: var(--lightgreen);
+}
+
 .btn-darkblue {
     background: var(--darkblue);
     color: white;
