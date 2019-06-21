@@ -114,6 +114,10 @@ _________________________________________________ */
         padding-bottom: 4.5em;
     }
 
+    #alchemist h1 {
+        padding-top: 1em;
+    }
+
     .brief-findings h2 {
         padding-top: 1em;
     }
