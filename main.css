@@ -247,6 +247,11 @@ _________________________________________________ */
     background-color: var(--lightgreen);
 }
 
+.card img {
+    max-height: 150px;
+    object-fit: contain;
+}
+
 /* FOOTER
 _________________________________________________ */
 

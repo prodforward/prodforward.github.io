@@ -22,6 +22,7 @@ _________________________________________________ */
     position: relative;
     overflow: hidden;
     padding-bottom: 100%;
+    background-color: white;
 }
 
 .portfolio-pic img {
@@ -33,7 +34,17 @@ _________________________________________________ */
     transform: translate( -50%, -50%);
 }
 
-/* BRIEF & FINDINGS
+#alchemist p {
+    font-size: 16px;
+    color: gray;
+    padding: .5em 0;
+}
+
+#alchemist p:hover {
+    text-decoration: underline;
+}
+
+/* BRIEF & CORE THEMES
 _________________________________________________ */
 
 .brief-findings li {
@@ -44,6 +55,22 @@ _________________________________________________ */
 
 .brief-findings h4 {
     padding: 1em 0 .5em 0;
+}
+
+.project-doc {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 100%;
+}
+
+.project-doc img {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    object-fit: contain;
 }
 
 /* RESULTS
