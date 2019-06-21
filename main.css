@@ -245,10 +245,11 @@ _________________________________________________ */
 
 .card-body {
     background-color: var(--lightgreen);
+    height: 70px;
 }
 
 .card img {
-    max-height: 150px;
+    height: 180px;
     object-fit: contain;
 }
 
