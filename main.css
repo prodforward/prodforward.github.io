@@ -269,7 +269,19 @@ _________________________________________________ */
 }
 
 .social-icons a.fa-twitter:hover { 
-    color: #00aced;
+    color: #1da1f2;
+}
+
+.social-icons a.fa-facebook-f:hover {
+    color: #1877f2;
+}
+
+.social-icons a.fa-linkedin-in:hover {
+    color: #007bb5;
+}
+
+.social-icons a.fa-instagram:hover {
+    color: #c32aa3;
 }
 
 /* MEDIA QUERIES 
